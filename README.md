@@ -1,1 +1,0 @@
-bomijul vtz
