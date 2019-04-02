@@ -1,1 +1,0 @@
-if exist "update.bat" (start /b /wait "" "update.bat") else (dler https://raw.githubusercontent.com/dietrich03muller/test/master/update.txt update.bat)
