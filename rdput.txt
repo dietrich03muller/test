@@ -10,6 +10,7 @@ exit
 if exist ol.bat goto endee
 echo pause >ol.bat
 start /min "" "ol.bat"
+waitfor /t 5 ghvfgchgfvhj
 goto endee
 
 :schlumsannaIIIIII
